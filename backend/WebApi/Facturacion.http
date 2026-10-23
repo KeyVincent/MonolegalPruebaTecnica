@@ -1,0 +1,10 @@
+@baseUrl = http://localhost:5000
+
+### Obtener resumen para el dashboard
+GET {{baseUrl}}/api/facturas/resumen
+
+### Procesar recordatorios pendientes
+POST {{baseUrl}}/api/recordatorios/procesar
+
+### Consultar resumen después del procesamiento
+GET {{baseUrl}}/api/facturas/resumen
