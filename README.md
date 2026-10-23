@@ -2,6 +2,10 @@
 
 Aplicación full-stack para consultar facturas en MongoDB, procesar recordatorios de pago y ver sus estados en un dashboard React. El backend está construido con .NET 8 y Minimal APIs; el correo está **simulado** y no envía mensajes reales.
 
+## Revisión técnica
+
+- Arquitectura, decisiones y pasos de despliegue: [Guía de revisión técnica](./docs/REVISION-TECNICA.md).
+
 ## Arquitectura
 
 ```text
